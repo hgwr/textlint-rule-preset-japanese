@@ -233,10 +233,10 @@ lodash@^4.17.11:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
   integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
 
-match-index@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/match-index/-/match-index-1.0.1.tgz#b4b673e99ab3ac5a6af303ccf4db709812bc3f58"
-  integrity sha1-tLZz6ZqzrFpq8wPM9NtwmBK8P1g=
+match-index@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/match-index/-/match-index-1.0.3.tgz#752ec60c6586ea5dd440d5e62cfbff25838c071a"
+  integrity sha512-1XjyBWqCvEFFUDW/MPv0RwbITRD4xQXOvKoPYtLDq8IdZTfdF/cQSo5Yn4qvhfSSZgjgkTFsqJD2wOUG4ovV8Q==
   dependencies:
     regexp.prototype.flags "^1.1.1"
 
@@ -360,7 +360,7 @@ textlint-rule-helper@^1.1.4, textlint-rule-helper@^1.1.5:
   dependencies:
     unist-util-visit "^1.1.0"
 
-textlint-rule-helper@^2.0.0:
+textlint-rule-helper@^2.0.0, textlint-rule-helper@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/textlint-rule-helper/-/textlint-rule-helper-2.1.1.tgz#d572588685359134bc779939b217e61f087dab0f"
   integrity sha512-6fxgHzoJVkjl3LaC1b2Egi+5wbhG4i0pU0knJmQujVhxIJ3D3AcQQZPs457xKAi5xKz1WayYeTeJ5jrD/hnO7g==
@@ -435,12 +435,12 @@ textlint-rule-no-mix-dearu-desumasu@^3.0.0:
     unist-util-visit "^1.1.0"
 
 textlint-rule-no-nfd@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/textlint-rule-no-nfd/-/textlint-rule-no-nfd-1.0.1.tgz#bf483f844e641ef23ae3f82361421a9e53b5d65a"
-  integrity sha1-v0g/hE5kHvI64/gjYUIanlO11lo=
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/textlint-rule-no-nfd/-/textlint-rule-no-nfd-1.0.2.tgz#8c5793b57caada6e620b89d7a1d2886487dbbe2e"
+  integrity sha512-n6tUx40/V6koDo78qqePHxSovuwSIKO0xwY3FCqVDbcfg9GxQCjde1twQJ99T3bs4LabhPOo/Pt3USaQ9XcTRQ==
   dependencies:
-    match-index "^1.0.1"
-    textlint-rule-helper "^1.1.5"
+    match-index "^1.0.3"
+    textlint-rule-helper "^2.1.1"
     unorm "^1.4.1"
 
 textlint-rule-prh@^5.2.0:
