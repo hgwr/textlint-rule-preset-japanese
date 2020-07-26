@@ -15,9 +15,9 @@
   integrity sha512-5VHykhxgUat7dvRWGw52Tk55SWjuZDpDO7PKDhfcLTFrD1cjbTtFFnWeJc0BfoqB2AUjfHXRoMdnqbFRGmnPVQ==
 
 "@textlint/module-interop@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@textlint/module-interop/-/module-interop-1.0.1.tgz#765ca9ccb9b66657d65061d3546b3fe51e48c983"
-  integrity sha512-gqx1Te+lMnXX6xyGTUdzGhm8RT7IfiSRMtWoH1FeTMg2InArRT+lTksCFc/x5dtaPN4vwOFZUvU8oTzYQzXbyg==
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@textlint/module-interop/-/module-interop-1.1.4.tgz#d8cb10e5bd1d4d31998c95fb0a52ad8100d6e18a"
+  integrity sha512-9M3kYG5nBoD2lhp05sqi6fieNU6rBcf+A8Trp+4d8o5uJ4RRsWeRtAQMWM7Tv15onqIITRq7fm3la7xovVB9KA==
 
 "@textlint/types@^1.1.2":
   version "1.1.5"
