@@ -1,0 +1,39 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "01:00"
+    timezone: Asia/Tokyo
+  open-pull-requests-limit: 99
+  ignore:
+  - dependency-name: textlint-rule-max-ten
+    versions:
+    - 2.0.4
+    - 3.0.0
+  - dependency-name: "@textlint/module-interop"
+    versions:
+    - 1.2.1
+    - 1.2.2
+  - dependency-name: textlint-rule-no-dropping-the-ra
+    versions:
+    - 2.0.0
+  - dependency-name: textlint-rule-no-doubled-joshi
+    versions:
+    - 3.8.0
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: textlint-rule-no-doubled-conjunctive-particle-ga
+    versions:
+    - 1.1.1
+  - dependency-name: textlint-rule-no-double-negative-ja
+    versions:
+    - 1.0.6
+  - dependency-name: textlint-rule-no-doubled-conjunction
+    versions:
+    - 1.0.3
+  - dependency-name: textlint-rule-no-mix-dearu-desumasu
+    versions:
+    - 4.0.1
